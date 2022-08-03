@@ -6,8 +6,9 @@ Set of emojis to show percentage progress
 
 ## Usage
 
-1. Upload the `.png` files in the `gen` directory of this repository as emojis
-2. Use them to report progress
+1. Download the emojis from https://github.com/simon0191/progress-emojis/releases/tag/v1.0.0
+2. Upload the `.png` files as emojis
+3. Use them to report progress
 
 ## Examples
 
