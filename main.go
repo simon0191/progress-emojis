@@ -15,7 +15,7 @@ type ProgressBar struct {
 
 func main() {
 	bars := []ProgressBar{}
-	for i := 0; i <= 10; i++ {
+	for i := 0; i <= 11; i++ {
 		bars = append(bars, NewProgressBar(120, i*10))
 	}
 	tplSource, err := os.ReadFile("base.svg.tpl")
