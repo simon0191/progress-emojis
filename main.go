@@ -31,7 +31,7 @@ func main() {
 		if err := tpl.Execute(&buf, bar); err != nil {
 			panic(err)
 		}
-		os.WriteFile(fmt.Sprintf("gen/%d.svg", idx*10), buf.Bytes(), os.ModeExclusive|0o660)
+		os.WriteFile(fmt.Sprintf("gen/progress%d.svg", idx*10), buf.Bytes(), os.ModeExclusive|0o660)
 	}
 }
 
