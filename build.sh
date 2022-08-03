@@ -1,6 +1,6 @@
 #!/bin/bash
 set -eu
-VERSION=${VERSION:-"v1.0.0"}
+VERSION=${VERSION:-"v1.1.0"}
 WORKDIR=$(git rev-parse --show-toplevel)
 rm -rf ${WORKDIR}/gen
 mkdir ${WORKDIR}/gen
